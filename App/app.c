@@ -154,7 +154,7 @@ void beep_task(void *pdata)
       else
           TIM_CtrlPWMOutputs(TIM1, DISABLE); //ENABLE or DISABLE  
       tick++;
-      OSTimeDlyHMSM(0, 0, 0, 800);     
+      OSTimeDlyHMSM(0, 0, 0, 500);     
 	 }
 }
 
@@ -170,7 +170,7 @@ void pwm_task(void *pdata)
       else
           TIM_CtrlPWMOutputs(TIM4, ENABLE); //ENABLE or DISABLE
       tick++;
-			OSTimeDlyHMSM(0, 0, 0, 800);   
+			OSTimeDlyHMSM(0, 0, 0, 500);   
 	 }
 }
 
