@@ -2,7 +2,7 @@
 .\objects\stm32f10x_dbgmcu.o: ..\BSP\FWLib\inc\stm32f10x_dbgmcu.h
 .\objects\stm32f10x_dbgmcu.o: ..\BSP\CMSIS\stm32f10x.h
 .\objects\stm32f10x_dbgmcu.o: ..\BSP\CMSIS\core_cm3.h
-.\objects\stm32f10x_dbgmcu.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_dbgmcu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_dbgmcu.o: ..\BSP\CMSIS\system_stm32f10x.h
 .\objects\stm32f10x_dbgmcu.o: ..\BSP\stm32f10x_conf.h
 .\objects\stm32f10x_dbgmcu.o: ..\BSP\FWLib\inc\stm32f10x_adc.h

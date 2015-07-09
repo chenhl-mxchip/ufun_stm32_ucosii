@@ -56,7 +56,7 @@ void start_task(void *pdata)
 {
     (void)pdata;                 
 
-    /*
+    
     OSTaskCreate( led0_task,
 								  (void *)0,
 								  &LED0_TASK_STK[LED0_STK_SIZE-1],
@@ -67,7 +67,7 @@ void start_task(void *pdata)
 									&LED1_TASK_STK[LED1_STK_SIZE-1],
 									LED1_TASK_PRIO
 								); 
-    */
+    
 		OSTaskCreate( led2_task,
 									(void *)0,
 									&LED2_TASK_STK[LED2_STK_SIZE-1],

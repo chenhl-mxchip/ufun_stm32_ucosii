@@ -1,6 +1,0 @@
--c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\App -I..\BSP -I..\BSP\FWLib\inc -I..\ucosii\Source -I..\ucosii\Ports -I..\BSP\CMSIS
--I E:\ufun_working\ufun_stm32_ucosii\Project\RTE
--I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
--I D:\Keil_v5\ARM\CMSIS\Include
--D__UVISION_VERSION="513" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
--o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d "..\BSP\FWLib\src\stm32f10x_sdio.c"

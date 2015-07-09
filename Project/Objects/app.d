@@ -2,7 +2,7 @@
 .\objects\app.o: ..\App\includes.h
 .\objects\app.o: ..\BSP\CMSIS\stm32f10x.h
 .\objects\app.o: ..\BSP\CMSIS\core_cm3.h
-.\objects\app.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\app.o: ..\BSP\CMSIS\system_stm32f10x.h
 .\objects\app.o: ..\BSP\stm32f10x_conf.h
 .\objects\app.o: ..\BSP\FWLib\inc\stm32f10x_adc.h
