@@ -1,0 +1,6 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I E:\ufun_working\ufun_stm32_ucosii\Project\RTE
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-I D:\Keil_v5\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 513" --pd "STM32F10X_HD SETA 1"
+--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d "..\BSP\CMSIS\startup\arm\startup_stm32f10x_hd.s"
